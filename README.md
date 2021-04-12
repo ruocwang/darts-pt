@@ -90,13 +90,14 @@ bash blank-sota.sh
 bash blank-proj-201.sh --resume_expid search-blank-sota-s5-2
 ```
 
-#### evaluation
+#### Evaluation
 ```
 bash eval.sh --arch [genotype_name]
 ```
 
 
 ## Citation
+
 ```
 @inproceedings{
   ruochenwang2021dartspt,
