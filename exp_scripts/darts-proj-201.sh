@@ -31,4 +31,4 @@ python train_search.py \
     --proj_intv 5 \
     # --log_tag debug --fast \
 
-## bash darts-proj-201.sh --resume_epoch 100 --resume_expid search-darts-201-1
+## bash darts-proj-201.sh --resume_epoch 100 --resume_expid search-darts-201-2

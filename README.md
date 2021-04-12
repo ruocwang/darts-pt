@@ -48,7 +48,7 @@ bash blank-proj-201.sh --resume_expid search-blank-201-1
 ## Experiments on S1-S4
 
 #### Supernet training
-The ckpts and logs will be saved to `./experiments/sota/{dataset}/search-{script_name}-{seed}/`. For example, the ckpt dir would be `./experiments/sota/cifar10/search-darts-sota-1/` for the command below.
+The ckpts and logs will be saved to `./experiments/sota/{dataset}/search-{script_name}-{space_id}-{seed}/`. For example, `./experiments/sota/cifar10/search-darts-sota-s3-1/` (script: darts-sota, space: s3, seed: 1).
 ```
 bash darts-sota.sh --space [s1/s2/s3/s4] --dataset [cifar10/cifar100/svhn]
 ```
@@ -64,7 +64,7 @@ bash blank-sota.sh --space [s1/s2/s3/s4] --dataset [cifar10/cifar100/svhn]
 bash blank-proj-201.sh --space [s1/s2/s3/s4] --dataset [cifar10/cifar100/svhn] --resume_expid search-blank-sota-[s1/s2/s3/s4]-2
 ```
 
-#### evaluation
+#### Evaluation
 ```
 bash eval.sh --arch [genotype_name]
 bash eval-c100.sh --arch [genotype_name]
