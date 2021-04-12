@@ -1,6 +1,6 @@
 # DARTS-PT
 Code accompanying the paper
-[ICLR'2021](https://iclr.cc/): [Rethinking Architecture Selection in Differentiable NAS](https://openreview.net/forum?id=PKubaeJkw3)
+[ICLR'2021](https://iclr.cc/): [Rethinking Architecture Selection in Differentiable NAS](https://openreview.net/forum?id=PKubaeJkw3)<br/>
 Ruochen Wang, Minhao Cheng, Xiangning Chen, Xiaocheng Tang, Cho-Jui Hsieh
 
 
