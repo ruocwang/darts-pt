@@ -13,16 +13,18 @@ tensorboard == 2.0.1
 gpustat
 ```
 
-
 ## Experiments on NAS-Bench-201
 
-### Dataset preparation
-Download the [NAS-Bench-201-v1_0-e61699.pth](https://drive.google.com/file/d/1SKW0Cu0u8-gb18zDpaAGi0f74UdXeGKs/view) and save it under `./data` folder.
+The scripts for running experiments can be found in the `exp_scripts/` directory.
 
-Install NasBench201 via pip:
+### Dataset preparation
+1. Download the [NAS-Bench-201-v1_0-e61699.pth](https://drive.google.com/file/d/1SKW0Cu0u8-gb18zDpaAGi0f74UdXeGKs/view) and save it under `./data` folder.
+
+2. Install NasBench201 via pip. (Note: We use the `[2020-02-25]` version of the NAS-Bench-201 API. If you have the newer version installed, you might add `hp="200"` to `api.query_by_arch()` in `nasbench201/train_search.py`)
 ```
 pip install nas-bench-201
 ```
+
 
 ### Running DARTS-PT on NAS-Bench-201
 
