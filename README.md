@@ -103,7 +103,7 @@ bash eval.sh --arch [genotype_name]
 ```
 @inproceedings{
   ruochenwang2021dartspt,
-  title={{Rethinking Architecture Selection in Differentiable NAS},
+  title={Rethinking Architecture Selection in Differentiable NAS},
   author={Ruochen Wang, Minhao Cheng, Xiangning Chen, Xiaocheng Tang, Cho-Jui Hsieh},
   booktitle={International Conference on Learning Representations (ICLR)},
   year={2021}
