@@ -2,7 +2,7 @@
 script_name=`basename "$0"`
 id=${script_name%.*}
 dataset=${dataset:-cifar10}
-seed=${seed:-2}
+seed=${seed:-0}
 gpu=${gpu:-"auto"}
 
 resume_epoch=${resume_epoch:-100}
@@ -32,4 +32,4 @@ python train_search.py \
     # --fast --log_tag debug \
 
 
-## bash blank-proj-201.sh --resume_expid search-blank-201-1
+## bash blank-proj-201.sh --resume_expid search-blank-201-0
