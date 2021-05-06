@@ -3,6 +3,8 @@ Code accompanying the paper
 [ICLR'2021](https://iclr.cc/): [Rethinking Architecture Selection in Differentiable NAS](https://openreview.net/forum?id=PKubaeJkw3)<br/>
 Ruochen Wang, Minhao Cheng, Xiangning Chen, Xiaocheng Tang, Cho-Jui Hsieh
 
+Outstanding Paper Award: https://iclr-conf.medium.com/announcing-iclr-2021-outstanding-paper-awards-9ae0514734ab
+
 
 ## Requirements
 
