@@ -84,7 +84,7 @@ bash darts-sota.sh
 
 #### Archtiecture selection (projection)
 ```
-bash darts-proj-sota.sh --resume_expid search-blank-sota-s5-2
+bash darts-proj-sota.sh --resume_expid search-darts-sota-s5-2
 ```
 
 #### Fix-alpha version (blank-pt)
