@@ -108,6 +108,7 @@ bash eval.sh --arch [genotype_name]
   title={Rethinking Architecture Selection in Differentiable NAS},
   author={Wang, Ruochen and Cheng, Minhao and Chen, Xiangning and Xiaocheng Tang and Hsieh, Cho-Jui},
   booktitle={International Conference on Learning Representations (ICLR)},
-  year={2021}
+  year={2021},
+  url={https://arxiv.org/abs/2108.04392}
 }
 ```
