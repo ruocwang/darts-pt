@@ -101,6 +101,9 @@ bash eval.sh --arch [genotype_name]
 
 
 ## Citation
+If you find this project helpful, please consider citing our paper:
+
+Thanks!
 
 ```
 @inproceedings{
